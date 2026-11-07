@@ -1,0 +1,16 @@
+# [ASSUMED] Michelin-style theme. Confirm brand colors and typeface with the sponsor.
+[theme]
+base = "light"
+primaryColor = "#27509B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6FA"
+textColor = "#1F2933"
+font = "sans serif"
+
+[server]
+headless = true
+# Local runs only by default. Do not deploy release or sponsor data to a public host.
+address = "localhost"
+
+[browser]
+gatherUsageStats = false

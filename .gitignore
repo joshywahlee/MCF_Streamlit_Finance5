@@ -1,0 +1,11 @@
+# Never commit MCF data to the app repository: data is uploaded in the browser at run time
+*.zip
+*.parquet
+*.json
+*.xlsx
+*.csv
+outputs/
+data/
+.env
+.venv/
+__pycache__/
